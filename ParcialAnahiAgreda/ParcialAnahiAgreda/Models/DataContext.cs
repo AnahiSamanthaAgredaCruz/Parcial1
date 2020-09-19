@@ -11,5 +11,7 @@ namespace ParcialAnahiAgreda.Models
         public DataContext() : base("DefaultConnection")
         {
         }
+
+        public System.Data.Entity.DbSet<ParcialAnahiAgreda.Models.AnahiAgreda> AnahiAgredas { get; set; }
     }
 }
